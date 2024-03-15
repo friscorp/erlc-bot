@@ -45,7 +45,7 @@ module.exports = {
   }
   const embed = new EmbedBuilder()
         .setTitle('Command Logs')
-        .setDescription('In-Game Logs for SFRP \n' + loges)
+        .setDescription('In-Game Logs \n' + loges)
         .setColor('1b88d1')
         .setTimestamp()
         //.addFields({ name: 'Players', value: response.CurrentPlayers})
