@@ -25,7 +25,7 @@ module.exports = {
     }
   }
   if (response.length>10) { 
-    looplen = 30;
+    looplen = 10;
   } else {
     looplen = response.length;
   }
